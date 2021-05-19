@@ -3,7 +3,7 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/Home/Home'
-import Quotes from './components/Quotes'
+import Quotes from './components/Quotes/Quotes'
 import Music from './components/Music'
 import Games from './components/Games'
 import "./App.css"
