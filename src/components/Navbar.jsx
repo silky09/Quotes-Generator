@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
 <nav className="green">
   <div className="nav-wrapper">
-          <Link to="/" className="brand-logo left"><i className="material-icons">note_add</i>my-app</Link>
+          <Link to="/" className="brand-logo left">📗my-app</Link>
           <Link to="/"  data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li><NavLink to="/"><i className="material-icons">home</i></NavLink></li>
