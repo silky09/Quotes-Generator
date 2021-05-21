@@ -66,6 +66,7 @@ const Games = () => {
   const winner = detectWinner(state.positions)
   return (
     <>
+     <h3 className="title">tic-tac-toe</h3> 
     <div className="app">
       <div className="grid">
         <Square position={0} value={state.positions[0]} takeTurn={takeTurn} />
@@ -115,8 +116,8 @@ function Cross() {
 function Result({winner, reset}) {
   return (
     <div className="result">
-    {winner === CIRCLE && 'Hurray, Circle won the game ✨💥🍨🎉'}
-      {winner === CROSS && 'Hurray Cross won the game ✨💥🍨🎉'}
+    {winner === CIRCLE && 'Hurray! Circle won the game ✨💥🍨🎉'}
+      {winner === CROSS && 'Hurray! Cross won the game ✨💥🍨🎉'}
       {winner === 'It is a tie' && 'It is a tie ✨💥'}
       <button onClick={reset}>Play again</button>
       </div>

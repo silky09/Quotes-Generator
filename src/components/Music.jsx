@@ -3,7 +3,7 @@ import React from 'react'
 const Music = () => {
   return (
     <div>
-      <h1>Hello Music</h1>
+      <h1>Music coming soon.....</h1>
     </div>
   )
 }
