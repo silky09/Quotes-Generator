@@ -27,13 +27,13 @@ const Home = () => {
 
   if (currentHours < 12) {
     message = "Good morning";
-    colorChange.color = "yellow";
+    colorChange.color = "green";
   } else if (currentHours < 18) {
     message = "Good afternoon";
     colorChange.color = "orange";
   } else {
     message = "Good evening";
-    colorChange.color = "purple";
+    colorChange.color = "gray";
   }
   return (
     <div>

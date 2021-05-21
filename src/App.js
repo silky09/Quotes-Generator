@@ -5,7 +5,8 @@ import Navbar from './components/Navbar'
 import Home from './components/Home/Home'
 import Quotes from './components/Quotes/Quotes'
 import Music from './components/Music'
-import Games from './components/Games'
+import Games from './components/Games/Games'
+// import Covid19 from './components/Covid19/Covid19';
 import "./App.css"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route exact path='/quotes' component={Quotes} />
           <Route exact path='/music' component={Music} />
           <Route exact path='/games' component={Games} />
+          {/* <Route exact path='/covid19' component={Covid19} /> */}
           <Redirect to="/" />
         </Switch>
       </Router>

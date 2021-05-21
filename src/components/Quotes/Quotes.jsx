@@ -25,7 +25,7 @@ const Quotes = () => {
     <div className="App">
         
     <div className="quoteBox">
-    <h5 id="quote"><i className="material-icons">"</i> {quote} <i className="material-icons">"</i></h5>
+    <h5 id="quote"><i className="material-icons">"</i> {quote}<i className="material-icons">"</i></h5>
     <h6 id="author">-{author}</h6>
     
     </div>
