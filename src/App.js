@@ -1,6 +1,6 @@
 import React from 'react'
 // eslint-disable-next-line
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
 import Quotes from './components/Quotes/Quotes'
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
      
-        <Router basename="/silk">
+        <Router>
         <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />
