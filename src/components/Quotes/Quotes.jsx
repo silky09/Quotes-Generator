@@ -13,7 +13,7 @@ const Quotes = () => {
   }, [])
   function getQuote() {
     fetch("http://api.quotable.io/random")
-    .then(res=> res.json())
+    .then(res=> res.json()) // parse data
     .then(data=>{
       console.log(data);
       setQuote(data.content); 
